@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonu C. - Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader">
+            <div class="code-animation">
+                <span>&lt;</span>
+                <span>Sonu C.</span>
+                <span>/&gt;</span>
+            </div>
+            <div class="loading-text">Loading Portfolio...</div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">&lt;SonuC/&gt;</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#hobbies" class="nav-link">Hobbies</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button id="theme-toggle" class="theme-btn">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="particles" id="particles"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="typing-text">Hi, I'm Sonu C.</span>
+                </h1>
+                <h2 class="hero-subtitle">
+                    <span class="gradient-text">Software Engineer & Python Developer</span>
+                </h2>
+                <p class="hero-description">
+                    Passionate ECE graduate with expertise in coding, development, and innovation. 
+                    Ready to transform ideas into powerful digital solutions.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-code"></i>
+                        View My Work
+                    </a>
+                    <a href="https://drive.google.com/file/d/1YN1Eld5qSOhHTwGurFbHpALN4x9z9OFm/view?usp=sharing" class="btn btn-secondary">
+                        <!-- <i class="fas fa-envelope"></i> -->
+                        Download CV
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/Sonu0412" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/sonu-c-297b682a0/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <img src="./profile-image.jpg" alt="Sonu C. - Professional Engineer" class="profile-image">
+                    <div class="image-glow"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Passionate about coding and innovation</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        I'm Sonu C., a dedicated Electronics and Communication Engineering graduate from ATME College of Engineering, Mysore, 
+                        with a strong CGPA of 8.2. My journey in technology began with a fascination for coding and has evolved into 
+                        a passion for creating innovative solutions.
+                    </p>
+                    <p class="about-description">
+                        With hands-on experience as a Python Developer at CodeTech company and multiple competition wins under my belt, 
+                        I bring both technical expertise and competitive spirit to every project. I believe in continuous learning 
+                        and pushing the boundaries of what's possible with code.
+                    </p>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h4>Programming Languages</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">HTML/CSS</span>
+                                <span class="skill-tag">C/C++</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Technologies</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Web Development</span>
+                                <span class="skill-tag">Mobile Apps</span>
+                                <span class="skill-tag">ChatBot Development</span>
+                                <span class="skill-tag">Database Management</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Soft Skills</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Team Leadership</span>
+                                <span class="skill-tag">Problem Solving</span>
+                                <span class="skill-tag">Public Speaking</span>
+                                <span class="skill-tag">Project Management</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number" data-count="7.7">0</div>
+                        <div class="stat-label">CGPA</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-count="5">0</div>
+                        <div class="stat-label">Projects</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-count="10">0</div>
+                        <div class="stat-label">Competitions</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-count="2">0</div>
+                        <div class="stat-label">Months Experience</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education</h2>
+                <p class="section-subtitle">Academic excellence and continuous learning</p>
+            </div>
+            <div class="education-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="education-card">
+                            <div class="education-header">
+                                <h3>B.E. in Electronics and Communication Engineering</h3>
+                                <div class="education-meta">
+                                    <span class="college">ATME College of Engineering, Mysore</span>
+                                    <span class="year">2022-2026</span>
+                                </div>
+                            </div>
+                            <div class="education-details">
+                                <div class="cgpa-badge">
+                                    <i class="fas fa-star"></i>
+                                    CGPA: 7.7/10
+                                </div>
+                                <p>Specialized in Electronics and Communication with focus on digital systems, 
+                                signal processing, and embedded systems. Actively participated in coding competitions 
+                                and technical projects.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="education-card">
+                            <div class="education-header">
+                                <h3>Pre-University Course (PCMB)</h3>
+                                <div class="education-meta">
+                                    <span class="college">Terishon College, Mysore</span>
+                                    <span class="year">2020-2022</span>
+                                </div>
+                            </div>
+                            <div class="education-details">
+                                <div class="cgpa-badge">
+                                    <i class="fas fa-trophy"></i>
+                                    Score: 80%
+                                </div>
+                                <p>Completed Pre-University education with Physics, Chemistry, Mathematics, and Biology. 
+                                Built strong foundation in analytical thinking and problem-solving skills.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience</h2>
+                <p class="section-subtitle">Professional journey and growth</p>
+            </div>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div class="company-logo">
+                            <img src="https://pixabay.com/get/ga14d58566ebfd75511dbf5f35f243c3a225b647bfd8c31880b9212872f57c79276f21f89942c4eeb78a63fc8c7c8a391889520973721ae9c00ef469e946310fd_1280.jpg" alt="CodeTech Company">
+                        </div>
+                        <div class="experience-info">
+                            <h3>Python Developer Intern</h3>
+                            <h4>CodeTech Company</h4>
+                            <span class="experience-duration">2 Months</span>
+                        </div>
+                    </div>
+                    <div class="experience-description">
+                        <p>Gained hands-on experience in Python development, working on real-world projects 
+                        and contributing to the company's software solutions. Developed proficiency in 
+                        backend development, API integration, and database management.</p>
+                        <div class="experience-skills">
+                            <span class="skill-chip">Python</span>
+                            <span class="skill-chip">Backend Development</span>
+                            <span class="skill-chip">API Integration</span>
+                            <span class="skill-chip">Database Management</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div class="company-logo">
+                            <i class="fas fa-hands-helping company-icon"></i>
+                        </div>
+                        <div class="experience-info">
+                            <h3>YFS Member</h3>
+                            <h4>Youth for Seva</h4>
+                            <span class="experience-duration">Ongoing</span>
+                        </div>
+                    </div>
+                    <div class="experience-description">
+                        <p>Active member of Youth for Seva organization, participating in community service 
+                        activities and social initiatives. Developed leadership skills and gained experience 
+                        in team coordination and project management.</p>
+                        <div class="experience-skills">
+                            <span class="skill-chip">Leadership</span>
+                            <span class="skill-chip">Team Management</span>
+                            <span class="skill-chip">Community Service</span>
+                            <span class="skill-chip">Event Planning</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Projects</h2>
+                <p class="section-subtitle">Innovative solutions and creative applications</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="animated-icon calculator-animation">
+                            <i class="fas fa-calculator calc-body"></i>
+                            <div class="calc-buttons">
+                                <span class="btn-flash"></span>
+                                <span class="btn-flash"></span>
+                                <span class="btn-flash"></span>
+                            </div>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Advanced Calculator</h3>
+                        <p>A feature-rich calculator application with scientific functions, history tracking, 
+                        and responsive design. Built using vanilla JavaScript with modern UI/UX principles.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">HTML/CSS</span>
+                            <span class="tech-tag">Responsive Design</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="animated-icon lock-animation">
+                            <i class="fas fa-lock security-lock"></i>
+                            <div class="key-rotation">
+                                <i class="fas fa-key rotating-key"></i>
+                            </div>
+                            <div class="security-shield">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Secure Password Generator</h3>
+                        <p>An intelligent password generator with customizable parameters, strength analysis, 
+                        and security recommendations. Helps users create strong, unique passwords.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Security</span>
+                            <span class="tech-tag">Cryptography</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="animated-icon chatbot-animation">
+                            <i class="fas fa-robot chatbot-head"></i>
+                            <div class="chat-bubbles">
+                                <div class="bubble bubble-1"></div>
+                                <div class="bubble bubble-2"></div>
+                                <div class="bubble bubble-3"></div>
+                            </div>
+                            <div class="thinking-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>College ChatBot</h3>
+                        <p>AI-powered chatbot for college information system as mini project. Provides instant 
+                        answers to student queries about admissions, courses, and campus facilities.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">AI/ML</span>
+                            <span class="tech-tag">Natural Language Processing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card featured">
+                    <div class="project-image">
+                        <div class="animated-icon android-animation">
+                            <i class="fab fa-android android-robot"></i>
+                            <div class="code-streams">
+                                <div class="code-line"></div>
+                                <div class="code-line"></div>
+                                <div class="code-line"></div>
+                            </div>
+                            <div class="app-icons">
+                                <i class="fas fa-mobile-alt"></i>
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="featured-badge">
+                            <i class="fas fa-star"></i>
+                            Final Year Project
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>CodeCamp Application</h3>
+                        <p>Comprehensive coding learning platform as final year project. Features interactive 
+                        tutorials, coding challenges, progress tracking, and community forums for aspiring developers.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Full Stack Development</span>
+                            <span class="tech-tag">Database Design</span>
+                            <span class="tech-tag">User Experience</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Achievements</h2>
+                <p class="section-subtitle">Recognition and competitive success</p>
+            </div>
+            <div class="achievements-grid">
+                <div class="achievement-card gold">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>First Place Winner</h3>
+                        <p class="achievement-event">SJBIT College Project Expo</p>
+                        <p class="achievement-description">
+                            Won first place in the prestigious project exhibition for innovative 
+                            solution and outstanding presentation skills.
+                        </p>
+                    </div>
+                    <div class="achievement-badge">
+                        <span class="badge-text">Gold</span>
+                    </div>
+                </div>
+
+                <div class="achievement-card silver">
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>State Level Finalist</h3>
+                        <p class="achievement-event">JVIT Adhichunchanagiri Project Expo</p>
+                        <p class="achievement-description">
+                            Achieved finalist position twice in consecutive years at the 
+                            state-level project exhibition, demonstrating consistent excellence.
+                        </p>
+                    </div>
+                    <div class="achievement-badge">
+                        <span class="badge-text">2x Finalist</span>
+                    </div>
+                </div>
+
+                <div class="achievement-card bronze">
+                    <div class="achievement-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>YFS Active Member</h3>
+                        <p class="achievement-event">Youth for Seva Organization</p>
+                        <p class="achievement-description">
+                            Recognized as an active contributor to community service initiatives 
+                            and social development programs.
+                        </p>
+                    </div>
+                    <div class="achievement-badge">
+                        <span class="badge-text">Service</span>
+                    </div>
+                </div>
+
+                <div class="achievement-card purple">
+                    <div class="achievement-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>Multiple Competition Wins</h3>
+                        <p class="achievement-event">Various Coding Competitions</p>
+                        <p class="achievement-description">
+                            Secured prizes in numerous programming competitions, showcasing 
+                            problem-solving skills and coding expertise.
+                        </p>
+                    </div>
+                    <div class="achievement-badge">
+                        <span class="badge-text">Multiple</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies" class="hobbies">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Hobbies & Interests</h2>
+                <p class="section-subtitle">Life beyond coding</p>
+            </div>
+            <div class="hobbies-grid">
+                <div class="hobby-card">
+                    <div class="hobby-image">
+                        <div class="animated-icon dancing-animation">
+                            <i class="fas fa-user-circle dancer"></i>
+                            <div class="dance-moves"></div>
+                        </div>
+                        <div class="hobby-overlay">
+                            <i class="fas fa-music hobby-icon"></i>
+                        </div>
+                    </div>
+                    <div class="hobby-content">
+                        <h3>Dancing</h3>
+                        <p>Passionate about various dance forms and cultural performances. 
+                        Dancing helps me express creativity and maintain physical fitness.</p>
+                    </div>
+                </div>
+
+                <div class="hobby-card">
+                    <div class="hobby-image">
+                        <div class="animated-icon singing-animation">
+                            <i class="fas fa-microphone-alt microphone"></i>
+                            <div class="sound-waves">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="hobby-overlay">
+                            <i class="fas fa-microphone hobby-icon"></i>
+                        </div>
+                    </div>
+                    <div class="hobby-content">
+                        <h3>Singing</h3>
+                        <p>Love exploring different musical genres and vocal techniques. 
+                        Singing provides emotional outlet and enhances my presentation skills.</p>
+                    </div>
+                </div>
+
+                <div class="hobby-card">
+                    <div class="hobby-image">
+                        <img src="https://pixabay.com/get/g1707072444fc2d1ef1df0ccf8334fc6fee8ac1772cfedd0bf3b1e5bf2954658d1e85a6aec4f6f1c76a2bcbe91684deb676db62e6780ea91c66a2f9dcb7cd4d5a_1280.jpg" alt="Sports Activities">
+                        <div class="hobby-overlay">
+                            <i class="fas fa-running hobby-icon"></i>
+                        </div>
+                    </div>
+                    <div class="hobby-content">
+                        <h3>Sports</h3>
+                        <p>Active in various sports activities including athletics and team sports. 
+                        Sports teach me teamwork, discipline, and competitive spirit.</p>
+                    </div>
+                </div>
+
+                <div class="hobby-card">
+                    <div class="hobby-image">
+                        <div class="animated-icon yoga-animation">
+                            <i class="fas fa-child yoga-pose"></i>
+                            <div class="zen-circles">
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                            </div>
+                        </div>
+                        <div class="hobby-overlay">
+                            <i class="fas fa-dumbbell hobby-icon"></i>
+                        </div>
+                    </div>
+                    <div class="hobby-content">
+                        <h3>Fitness</h3>
+                        <p>Committed to maintaining physical and mental well-being through regular 
+                        exercise and outdoor activities. Fitness fuels my productivity and focus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's discuss opportunities and collaborations</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-text">
+                        <h3>Let's Build Something Amazing Together</h3>
+                        <p>I'm always excited to discuss new opportunities, innovative projects, 
+                        and potential collaborations. Whether you're looking for a passionate developer, 
+                        a creative problem solver, or someone who can bring fresh perspectives to your team, 
+                        I'd love to hear from you.</p>
+                    </div>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-data">
+                                <h4>Email</h4>
+                                <p>sonuchandru2004@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-data">
+                                <h4>Location</h4>
+                                <p>Mysore, Karnataka, India</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-data">
+                                <h4>Phone</h4>
+                                <p>Available upon request</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                            <span class="form-icon"><i class="fas fa-user"></i></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="form-icon"><i class="fas fa-envelope"></i></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                            <span class="form-icon"><i class="fas fa-tag"></i></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 Sonu C. All rights reserved. Built with passion and code.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="assets/particles.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
